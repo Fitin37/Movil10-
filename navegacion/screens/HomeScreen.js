@@ -5,7 +5,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.screen}>
       <View style={styles.container}>
-        <Text style={styles.title}>Módulo 3.5</Text>
+        <Text style={styles.title}>Módulo</Text>
         <Text style={styles.description}>
           Desarrollo de componentes para dispositivos móviles
         </Text>
@@ -14,7 +14,7 @@ const HomeScreen = ({ navigation }) => {
           style={styles.button}
           onPress={() => navigation.navigate('Perfil')}
         >
-          <Text style={styles.buttonText}>Ver Perfil del Estudiante</Text>
+          <Text style={styles.buttonText}>Ver Perfil </Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>
@@ -26,7 +26,7 @@ export default HomeScreen;
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: '#E6F0F5', // Mismo fondo azul claro que ProfileScreen
+    backgroundColor: '#E6F0F5', 
   },
   container: {
     flex: 1,
